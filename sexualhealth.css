@@ -19,4 +19,6 @@ body {
 
 .nav {
 	text-align: center;
+	background-color: rgb(249, 127, 235);
+	padding: 20px 0px 20px 0px;
 }
