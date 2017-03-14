@@ -9,16 +9,29 @@ p {
 	font-size: 16px;
 }
 
-img {
-	width: 50%;
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/564x/f0/b9/52/f0b9523dacbecc5bd4e2aae496a9c8c2.jpg);
+	background-size:cover
 }
 
-body {
-	background: pink;
+img {
+	width: 50%;
+	border-radius: 25%
 }
 
 .nav {
 	text-align: center;
-	background-color: rgb(249, 127, 235);
-	padding: 20px 0px 20px 0px;
+	background-color: rgb(150, 39, 144);
+	padding: 10px 0px 20px 0px;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+img {
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
 }
