@@ -1,3 +1,15 @@
-blockquote {
+.top {
 	border-left: none;
+}
+.first {
+	background-color: rgba(0,255,0,0.3);
+	color: black;
+}
+.third {
+	background-color: rgba(255,255,0,0.3);
+	color: black;
+}
+.second {
+	background-color: rgba(255,0,0,0.3);
+	color: black;
 }
