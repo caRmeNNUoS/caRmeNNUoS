@@ -16,13 +16,13 @@ body {
 
 img {
 	width: 50%;
-	border-radius: 25%
+	border-radius: 15%
 }
 
 .nav {
 	text-align: center;
 	background-color: rgb(150, 39, 144);
-	padding: 10px 0px 20px 0px;
+	padding: 10px 0px 10px 0px;
 }
 
 li {
