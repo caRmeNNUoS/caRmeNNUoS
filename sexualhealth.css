@@ -4,25 +4,25 @@ h1 {
 }
 
 p {
-	color: blue;
+	color: rgb22, 45, 34);
 	font-family: Helvetica
 	font-size: 16px;
 }
 
 body {
-	background-image: url(https://s-media-cache-ak0.pinimg.com/564x/f0/b9/52/f0b9523dacbecc5bd4e2aae496a9c8c2.jpg);
+	background-image: url(http://2.bp.blogspot.com/-yfR-QZl3Po0/VMbK8OOz5OI/AAAAAAAAAu8/CdDwo9XPFhw/s1600/cork.png);
 	background-size:cover
 }
 
 img {
 	width: 50%;
-	border-radius: 25%
+	border-radius: 15%
 }
 
 .nav {
 	text-align: center;
 	background-color: rgb(150, 39, 144);
-	padding: 10px 0px 20px 0px;
+	padding: 10px 0px 10px 0px;
 }
 
 li {
