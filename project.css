@@ -4,29 +4,25 @@ body {
       background-size: cover;
       background-repeat: repeat;
 }
-<<<<<<< HEAD
 .col1 {
-	background-image: url("images/blue-postit.png");
+	background-image: url("images/pink-postit.png");
 	background-size: cover;
-	height: 350px;
+	height: 383px;
 	width: auto;
 }
 .col2 {
-	background-image: url("images/piles.png");
+	background-image: url("images/green.png");
 	background-size: cover;
-	height: 350px;
+	height: 386px;
 }
 .col3 {
 	background-image: url("images/yellow.png");
-	background-size: cover;
-	height: 350px;
+	background-size: contain;
+	height: 386px;
 }
 
 .top {
 	border-left: none;
-=======
-
->>>>>>> origin/master
 }
 .first {
 	background-color: rgba(0,255,0,0.3);
