@@ -2,7 +2,9 @@ body {
 	background-image: url("images/pinboard.gif");
       background-image: url("images/pinboard.png");
       background-size: cover;
+      background-repeat: repeat;
 }
+<<<<<<< HEAD
 .col1 {
 	background-image: url("images/blue-postit.png");
 	background-size: cover;
@@ -22,6 +24,9 @@ body {
 
 .top {
 	border-left: none;
+=======
+
+>>>>>>> origin/master
 }
 .first {
 	background-color: rgba(0,255,0,0.3);
