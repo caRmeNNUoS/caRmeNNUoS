@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-  <style>
-      img {
-        border-radius: 10px;
-        margin: 10px, 0px;
-      }
-  </style>
-
   <head>
     <link rel="stylesheet" type="text/css" href="project.css">
     <link rel="stylesheet" type="text/css" href="boot-dist/css/bootstrap.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
+
+  <style>
+   img { 
+    border-radius: 5px;
+    border: 40px solid #fcfac9;
+    padding: 0px;  
+      }
+    </style>
   
   <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Shef Uni Health</a>
-      </div>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">ABC Health</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="index.html">Home <i class="em em-house_with_garden"></i></a></li>
         <li><a href= "sexualhealth.html"> Sexual <i class="em em-couplekiss"></i></a></li>
@@ -28,7 +35,14 @@
         <li><a href="mental health.html">Mental <i class="em em-massage"></i></a></li>
       </ul>
     </div>
-   </nav>
+  </div>
+</nav>
+
+<script>
+$(document).ready(function () {
+$('.navbar-toggle').dropdown();
+});
+</script>
   	
     <h1>Looking After Your Body <i class="em em-muscle"></i></h1>
   

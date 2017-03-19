@@ -5,9 +5,10 @@
     <link href="boot-dist/css/bootstrap.css" rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="project.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <script src="boot-dist/js/bootstrap.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
   </head>
-
+       
   <body>
 
 <nav class="navbar navbar-inverse navbar-static-top">
@@ -33,10 +34,11 @@
 
 <script>
 $(document).ready(function () {
-$('.dropdown-toggle').dropdown();
+$('.navbar-toggle').dropdown();
 });
 </script>
 
+<script src="boot-dist/js/bootstrap.js"></script>    
 
 </body>
 
