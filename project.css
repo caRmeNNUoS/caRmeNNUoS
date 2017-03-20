@@ -11,14 +11,13 @@ body {
     padding: 0px;  
       }
 
-h1 {
-   text-align: center;
+#index-head{
+	font-family: 'Monofett', cursive;
+	font-size: 200px;
 }
 
- img { 
- 	border-radius: 5px;
-    border: 100px solid #fcfac9;
-    padding: 20px;    
+h1 {
+   text-align: center;
 }
 
 .top {
@@ -41,4 +40,21 @@ h1 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.thumbnail {
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+.caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.postit {
+	font-size: 70px;
 }
