@@ -1,8 +1,7 @@
 body {
-	background-image: url("images/pinboard.gif");
-      background-image: url("images/pinboard.png");
-      background-size: cover;
-      background-repeat: repeat;
+    background-image: url("images/pinboard.png");
+    background-size: cover;
+    background-repeat: repeat;
 }
 .col1 {
 	background-image: url("images/pink-postit.png");
@@ -20,7 +19,11 @@ body {
 	background-size: contain;
 	height: 386px;
 }
-
+ img { 
+ 	border-radius: 5px;
+    border: 100px solid #fcfac9;
+    padding: 20px;    
+}
 .top {
 	border-left: none;
 }
@@ -36,3 +39,4 @@ body {
 	background-color: rgba(255,0,0,0.3);
 	color: black;
 }
+
