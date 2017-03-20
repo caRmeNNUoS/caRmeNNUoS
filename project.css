@@ -15,21 +15,23 @@ h1 {
    text-align: center;
 }
 .col1 {
-	background-image: url("images/pink-postit.png");
 	background-size: cover;
 	height: 383px;
 	width: auto;
 }
 .col2 {
-	background-image: url("images/green.png");
 	background-size: cover;
 	height: 386px;
 }
 .col3 {
-	background-image: url("images/yellow.png");
 	background-size: contain;
 	height: 386px;
-} 
+	}
+ img { 
+ 	border-radius: 5px;
+    border: 100px solid #fcfac9;
+    padding: 20px;    
+
 .top {
 	border-left: none;
 }
