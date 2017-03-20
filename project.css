@@ -9,7 +9,7 @@ h1 {
    text-align: center;
 }
 .col1 {
-	background-image: url("images/pink-postit.png");
+	background-image: url("images/yellow.png");
 	background-size: cover;
 	height: 383px;
 	width: auto;
@@ -20,7 +20,7 @@ h1 {
 	height: 386px;
 }
 .col3 {
-	background-image: url("images/yellow.png");
+	background-image: url("images/pink-postit.png");
 	background-size: contain;
 	height: 386px;
 }
