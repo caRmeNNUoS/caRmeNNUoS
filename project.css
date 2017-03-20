@@ -14,29 +14,12 @@ body {
 h1 {
    text-align: center;
 }
-<<<<<<< HEAD
 
  img { 
  	border-radius: 5px;
     border: 100px solid #fcfac9;
     padding: 20px;    
 }
-=======
-.col1 {
-	background-size: cover;
-	height: 383px;
-	width: auto;
-}
-.col2 {
-	background-size: cover;
-	height: 386px;
-}
-.col3 {
-	background-size: contain;
-	height: 386px;
-	}  
-
->>>>>>> origin/master
 .top {
 	border-left: none;
 }
