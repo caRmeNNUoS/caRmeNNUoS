@@ -19,12 +19,6 @@ img {
 	border-radius: 15%
 }
 
-.nav {
-	text-align: center;
-	background-color: rgb(150, 39, 144);
-	padding: 10px 0px 10px 0px;
-}
-
 li {
 	display: inline;
 	float: left;

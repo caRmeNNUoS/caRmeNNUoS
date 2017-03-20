@@ -2,7 +2,15 @@ body {
     background-image: url("images/pinboard.png");
     background-size: cover;
     background-repeat: repeat;
+<<<<<<< HEAD
     font-family: "Gloria Hallelujah", cursive;
+=======
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+   text-align: center;
+>>>>>>> origin/master
 }
 .col1 {
 	background-image: url("images/pink-postit.png");
