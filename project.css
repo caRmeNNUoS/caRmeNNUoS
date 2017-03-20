@@ -5,7 +5,7 @@ body {
     font-family: 'Gloria Hallelujah', cursive;
     }
 
-img { 
+#img-border{
     border-radius: 20px;
     border: 5px solid black;
     padding: 0px;  
@@ -51,4 +51,9 @@ h1 {
 .second {
 	background-color: rgba(255,0,0,0.3);
 	color: black;
+}
+
+img.banner {
+	border-radius: 20px;
+    padding: 0px;  
 }
