@@ -15,12 +15,6 @@ h1 {
    text-align: center;
 }
 
- img { 
- 	border-radius: 5px;
-    border: 100px solid #fcfac9;
-    padding: 20px;    
-}
-
 .top {
 	border-left: none;
 }
@@ -35,4 +29,21 @@ h1 {
 .second {
 	background-color: rgba(255,0,0,0.3);
 	color: black;
+}
+.picture1 {
+   position: relative; 
+   width: 100%;
+}
+.firsthead {
+	position: absolute;
+	top:200;
+	left: 0;
+	width: 100%;
+}
+.firstpar {
+	position: absolute; 
+   top: 0px; 
+   left: 0; 
+   width: 100%;
+   font-size: 15px;
 }
