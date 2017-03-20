@@ -14,11 +14,6 @@ body {
 	background-size:cover
 }
 
-img {
-	width: 50%;
-	border-radius: 15%
-}
-
 li {
 	display: inline;
 	float: left;
@@ -28,4 +23,7 @@ img {
 	padding: 10px;
 	display: block;
 	margin: 0 auto;
+	border: 5px solid black;
+	width: 50%;
+	border-radius: 15%
 }
