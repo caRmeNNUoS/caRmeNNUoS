@@ -26,11 +26,7 @@ h1 {
 .col3 {
 	background-size: contain;
 	height: 386px;
-	}
- img { 
- 	border-radius: 5px;
-    border: 100px solid #fcfac9;
-    padding: 20px;    
+	}  
 
 .top {
 	border-left: none;
