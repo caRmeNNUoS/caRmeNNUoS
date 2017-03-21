@@ -193,9 +193,26 @@ p {
 .postit:hover {
  color: white;
  text-decoration: none;
-}#par3-caption {
+}
+#par3-caption {
 	position: absolute;
     padding: 5px 26px 5px 26px;
     top: 0px;
     font-size: 20px;
+}
+#sex1-caption {
+	position: absolute;
+    padding: 80px 50px 0px 45px;
+    top: 0px;
+}
+#sex2-caption {
+	position: absolute;
+	padding: 20px 85px 30px 85px;
+	top: 0px;
+	font-size: 16px;
+}
+#sexcol3 {
+	position: absolute;
+	top: 0px;
+	padding: 40px 30px 20px 47px;
 }
