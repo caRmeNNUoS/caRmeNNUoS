@@ -89,11 +89,18 @@ h1 {
     border: none;
 }
 
-#paragr1-caption{
+#par1-caption {
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0;
     width: 100%;
+    font-size: 20px;
+}
+#par2-caption {
+	position: absolute;
+    padding: 5px 30px 5px 30px;
+    top: 0px;
+    font-size: 20px;
 }
 
 .postit {
@@ -183,8 +190,14 @@ p {
 }
 
 #index-caption {
-	 position: absolute;
+	position: absolute;
     top: 30%;
     left: 0;
     width: 100%;
+}
+#par3-caption {
+	position: absolute;
+    padding: 5px 26px 5px 26px;
+    top: 0px;
+    font-size: 20px;
 }
