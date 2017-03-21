@@ -81,7 +81,7 @@
 
   <div class="about">
     <h1>About us!</h1>
-  <div class="writing">  
+  <div class="hidden show-description">  
     <p>Who are we?</p>
     <p> We are 3 Sheffield University students who believe that health at University is important and wanted to create a website for students to use to gain advice and tips on how to stay healthy whilst at Uni!</p>
 
@@ -105,11 +105,9 @@
 </div>
 
 <script>
-$(document).ready(function(){
-    $(".about").click(function(){
-        $(".writing").toggle(1000);
-    });
-});
+  $('.about').on('click', function () {
+   $('.show-description').toggleClass('hidden');
+ });
 </script>
 
 <script src='boot-dist/js/bootstrap.js'></script>
