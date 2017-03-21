@@ -1,6 +1,6 @@
 body {
     background-image: url("images/pinboard.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: repeat;
     font-family: 'Gloria Hallelujah', cursive;
     }
@@ -30,8 +30,25 @@ body {
 }
 
 .about{
-    background-color: black;
-    color: white;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+  padding: 10px;
+}
+
+#social-buttons {
+    text-align: center;
+    padding: 10px;
+}
+
+.show-description {
+    opacity: 1;
+}
+
+.hidden{
+    opacity: 0;
 }
 
 h1 {
@@ -76,3 +93,4 @@ h1 {
 .postit {
 	font-size: 70px;
 }
+
