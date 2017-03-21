@@ -13,8 +13,8 @@ body {
 
 #index-head{
 	font-family: 'Monofett', cursive;
-	font-size: 170px;
-  margin: 0px;
+	font-size: 140px;
+    margin: 0px;
 }
 
 .strapline {
@@ -41,7 +41,7 @@ body {
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
-  padding: 10px;
+  padding: 0px;
 }
 
 .show-description {
@@ -93,11 +93,12 @@ h1 {
 
 .postit {
 	font-size: 70px;
-}
-
-.postit {
 	color: black;
 	text-decoration: none;
+}
+
+#postit {
+    zoom: 70%;
 }
 
 
@@ -115,6 +116,11 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 0px;
+}
+
+#social-buttons:hover {
+    color: grey;
 }
 
 .btn-twitter {
@@ -177,5 +183,8 @@ p {
 }
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
+
