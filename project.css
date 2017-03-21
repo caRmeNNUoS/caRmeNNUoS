@@ -94,3 +94,84 @@ h1 {
 	font-size: 70px;
 }
 
+.pagenames {
+	color: black;
+	text-decoration: none;
+}
+
+
+.pagenames:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-twitter {
+    background-color: rgb(86, 151, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-facebook {
+    background-color: rgb(24, 69, 142);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.btn-pinterest {
+    background-color: rgb(226, 18, 28);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+input[type=text] {
+    border: 2px solid purple;
+    background-color: pink;
+    border-radius: 4px;
+    display:block;
+    margin:10px auto;
+}
+
+button {
+	color: purple;
+	background-color: pink;
+    display:block;
+    margin:10px auto;
+}
+
+p {
+    display:block;
+    margin:0px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+	color: purple;
+	text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#signup {
+	font-size: 200%;
+}
