@@ -199,3 +199,12 @@ p {
     top: 0px;
     font-size: 20px;
 }
+
+.link2 {
+	color: black;
+}
+
+.link2:hover {
+color: white;
+text-decoration: none;
+}
