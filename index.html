@@ -11,8 +11,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </head>
 
-<body>
-
+ <body>
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -21,8 +20,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
-          <a class="navbar-brand" href="#">ABC Health</a>
-        </div>
+          <div class="media-buttons">
+            <button class='btn-twitter' id='social-buttons'>Twitter</button>
+            <button class='btn-facebook' id='social-buttons'>Facebook</button>
+            <button class='btn-pinterest' id='social-buttons'>Pinterest</button>
+          </div>
+          </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home <i class="em em-house_with_garden"></i></a></li>
@@ -71,19 +74,11 @@
   		</div>
   	</div>
 
-    <div id='social-buttons'>
-      <div class="media-buttons">
-        <button class='btn-twitter'>Twitter</button>
-        <button class='btn-facebook'>Facebook</button>
-        <button class='btn-pinterest'>Pinterest</button>
-      </div>
-    </div>
-
-  <div class="about">
+  <div class="about navbar-fixed-bottom">
     <h1>About us!</h1>
   <div class="hidden show-description">  
-    <p>Who are we?</p>
-    <p> We are 3 Sheffield University students who believe that health at University is important and wanted to create a website for students to use to gain advice and tips on how to stay healthy whilst at Uni!</p>
+    <p class="large">Who are we?</p>
+    <p class="large"> We are 3 Sheffield University students who believe that health at University is important and wanted to create a website for students to use to gain advice and tips on how to stay healthy whilst at Uni!</p>
 
 <div class= "container">
   <div class= "row">
@@ -106,8 +101,8 @@
 
 <script>
   $('.about').on('click', function () {
-   $('.show-description').toggleClass('hidden');
- });
+   $('.show-description').toggleClass('hidden'); 
+   });
 </script>
 
 <script src='boot-dist/js/bootstrap.js'></script>
