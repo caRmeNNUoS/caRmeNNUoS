@@ -83,9 +83,9 @@ h1 {
     border: none;
 }
 
-.caption {
+#paragr1-caption{
     position: absolute;
-    top: 30%;
+    top: 10px;
     left: 0;
     width: 100%;
 }
@@ -93,6 +93,7 @@ h1 {
 .postit {
 	font-size: 70px;
 }
+<<<<<<< HEAD
 
 .pagenames {
 	color: black;
@@ -174,4 +175,11 @@ p {
 
 #signup {
 	font-size: 200%;
+=======
+#index-caption {
+	 position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+>>>>>>> origin/master
 }
