@@ -83,7 +83,7 @@ h1 {
     border: none;
 }
 
-#paragr1{
+#paragr1-caption{
     position: absolute;
     top: 10px;
     left: 0;
@@ -92,4 +92,10 @@ h1 {
 
 .postit {
 	font-size: 70px;
+}
+#index-caption {
+	 position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
 }
