@@ -104,9 +104,10 @@
 </div>
 
 <script>
- $('.about').on('click', function() {
-  $(this).toggleClass('.show-description');
-});
+    // when the .about button is clicked, we toggle the hidden class on .show-description 
+    $('.about').on('click', function () {
+        $('.show-description').toggleClass('hidden');
+    });
 </script>
 
 <script src='boot-dist/js/bootstrap.js'></script>
