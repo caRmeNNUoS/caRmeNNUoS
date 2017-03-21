@@ -11,6 +11,29 @@ body {
     padding: 0px;  
       }
 
+#index-head{
+	font-family: 'Monofett', cursive;
+	font-size: 200px;
+}
+
+#photo{
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid red;
+    padding: 0px;
+}
+
+#label{
+    text-align: center;
+    color: red;
+}
+
+.about{
+    background-color: black;
+    color: white;
+}
+
 h1 {
    text-align: center;
 }
@@ -30,20 +53,38 @@ h1 {
 	background-color: rgba(255,0,0,0.3);
 	color: black;
 }
-.picture1 {
-   position: relative; 
-   width: 100%;
-}
-.firsthead {
+.head1 {
 	position: absolute;
 	top:200;
 	left: 0;
 	width: 100%;
 }
-.firstpar {
+.par1 {
 	position: absolute; 
    top: 0px; 
-   left: 0; 
    width: 100%;
-   font-size: 15px;
+   
+ }
+
+#imgborder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thumbnail {
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+.caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.postit {
+	font-size: 70px;
 }
