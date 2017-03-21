@@ -112,12 +112,6 @@ h1 {
 	text-decoration: none;
 }
 
-
-.postit:hover {
-    color: white;
-    text-decoration: none;
-}
-
 .btn-twitter {
     background-color: rgb(86, 151, 255);
     border: none;
@@ -195,7 +189,11 @@ p {
     left: 0;
     width: 100%;
 }
-#par3-caption {
+
+.postit:hover {
+ color: white;
+ text-decoration: none;
+}#par3-caption {
 	position: absolute;
     padding: 5px 26px 5px 26px;
     top: 0px;
