@@ -169,16 +169,6 @@ p {
     padding: 10px;
 }
 
-.link {
-	color: purple;
-	text-decoration: none;
-}
-
-.link:hover {
-    color: white;
-    text-decoration: none;
-}
-
 #signup {
 	font-size: 200%;
 }
@@ -201,10 +191,15 @@ p {
 }
 
 .link2 {
-	color: black;
+	color: purple;
+	text-decoration: none;
 }
 
 .link2:hover {
 color: white;
 text-decoration: none;
+}
+
+.purplehead {
+	color: purple;
 }
