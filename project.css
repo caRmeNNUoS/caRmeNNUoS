@@ -70,18 +70,6 @@ h1 {
 	background-color: rgba(255,0,0,0.3);
 	color: black;
 }
-.head1 {
-	position: absolute;
-	top:200;
-	left: 0;
-	width: 100%;
-}
-.par1 {
-	position: absolute; 
-   top: 0px; 
-   width: 100%;
-   
- }
 
 #imgborder {
 	display: block;
@@ -95,9 +83,9 @@ h1 {
     border: none;
 }
 
-.caption {
+#paragr1{
     position: absolute;
-    top: 30%;
+    top: 10px;
     left: 0;
     width: 100%;
 }
