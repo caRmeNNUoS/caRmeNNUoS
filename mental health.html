@@ -10,32 +10,39 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   </head>
   <body>
-  <nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">ABC Health</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">Home <i class="em em-house_with_garden"></i></a></li>
-        <li><a href= "sexualhealth.html"> Sexual <i class="em em-couplekiss"></i></a></li>
-        <li><a href="physical health.html">Physical <i class="em em-muscle"></i></a></li>
-        <li><a href="mental health.html">Mental <i class="em em-massage"></i></a></li>
-      </ul>
-    </div>
-  </div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <div class="media-buttons">
+            <button class='btn-twitter' id='social-buttons'>Twitter</button>
+            <button class='btn-facebook' id='social-buttons'>Facebook</button>
+            <button class='btn-pinterest' id='social-buttons'>Pinterest</button>
+          </div>
+          </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home <i class="em em-house_with_garden"></i></a></li>
+            <li><a href= "sexualhealth.html"> Sexual <i class="em em-couplekiss"></i></a></li>
+            <li><a href="physical health.html">Physical <i class="em em-muscle"></i></a></li>
+            <li><a href="mental health.html">Mental <i class="em em-massage"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 </nav>
+
   <div class="container">
   	 <blockquote class="top"><h1>"Mens sana in corpore sano"</h1></blockquote>
  	 <div class="row">
-  	<div class='col-sm-4'>
- 	 	<div class="thumbnail text-center">
+  	 <div class='col-sm-4'>
+ 	 <div class="thumbnail text-center">
  	  	 	<img src="images/notebookPaper.png" class="img-responsive">
+
  	  	 	<div class="caption" id="par1-caption">
  	 			<h2>Get informed</h2>
  	 			<p>
@@ -55,24 +62,31 @@
   				</p>
  	 		</div>
  		 </div>
+
+ 	  	 	<div class="caption">
+ 	 		<h2 class="caption">Get informed</h2>
+ 	 		
+			<p class="caption">
+				Feeling homesick is normal and most people go through that phase at Uni. But it's important to remember that you are <mark class="first">not alone</mark>. Talk to your <mark class="first">department</mark>, check the <a target="_blank" class="text-success" href="https://www.sheffield.ac.uk/ssid/contacts/advice" class= "link"><b>Student Advice Centre's website</b></a> or seek help from <a target="_blank" class="text-success" href="https://www.sheffield.ac.uk/ssd/ssg/cwag" class= "link"><b>Central Welfare and Guidance</b></a> (CWaG). You can be sure that the difficulties you're experiencing now can be dealt with professionally, you don't have to cope with them alone.
+			</p>
+		</div>	
  	 </div>
 
- 	 <div class='col-sm-4'>
- 	 	<div class="thumbnail text-center">
- 	 		<img src="images/tape.png" class="img-responsive">
- 	 		<div class="caption" id="par3-caption">
-  				<h1>Professional support</h1>
-  				<p class="text-justify">
-  				Sometimes, problems  require professional assistance. There are <mark class="third">confidential</mark> services at Uni, such as the <a target="_blank" href="https://www.sheffield.ac.uk/ssid/counselling"><b> Counselling Service</b></a> and the <a target="_blank" href-"http://www.sheffield.ac.uk/health"><b>University Health Service</b></a> (UHS). Also, many students struggle with their courses without realising they may have <mark class="third">dyslexia</mark>, so the <a target="_blank" class="text-sucess" href="https://www.sheffield.ac.uk/ssid/disability"><b>Disability and Dyslexia Support Service</b></a> can help with diagnoses.
-  				</p>
-  			</div>
-		</div>
- 	 </div>
 	</div>
   	</div>
   	</div>
 
-  	<div class="row">
+=======
+ 	 <div class='col-sm-4'>
+ 	 <div>
+  			<h1>Professional support</h1>
+  			<p class="text-justify">
+  				Sometimes, problems  require professional assistance. There are <mark class="third">confidential</mark> services at Uni, such as the <a target="_blank" href="https://www.sheffield.ac.uk/ssid/counselling class= "link"" class= "link"><b> Counselling Service</b></a> and the <a target="_blank" href-"http://www.sheffield.ac.uk/health" class= "link"><b>University Health Service</b></a> (UHS). Also, many students struggle with their courses without realising they may have <mark class="third">dyslexia</mark>, so the <a target="_blank" href="https://www.sheffield.ac.uk/ssid/disability" class= "link"><b>Disability and Dyslexia Support Service</b></a> can help.
+  			</p>
+  		</div>
+  		</div>
+  </div>
+  <div class="row">
   	 	<div class='col-sm-4'>
  	 		<div>
  	 			<img src="images/information.jpg" class="img-responsive" id="img-border">
@@ -95,13 +109,6 @@
   <p id= "signup">Sign up for our monthly newsletter!</p> 
 <input type= "text" name= "textbox" size= "30"/> <button type="button">Subscribe</button> 
 
-<div id='social-buttons'>
-  <div class= "media-buttons">
-      <button class='btn-twitter'>Twitter</button>
-      <button class='btn-facebook'>Facebook</button>
-      <button class='btn-pinterest'>Pinterest</button>
-  </div>
-</div>
 </body>
 
     <script src='boot-dist/js/bootstrap.js'></script>
