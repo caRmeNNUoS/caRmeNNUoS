@@ -81,7 +81,7 @@ h1 {
 	color: black;
 }
 
-#imgborder {
+#img-border {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -92,31 +92,34 @@ h1 {
     background: transparent;
     border: none;
 }
-#container1 {
+#container-1 {
 	position: relative;
 }
-#container2 {
+#container-2 {
 	position: relative;
 }
-#container3 {
+#container-3 {
 	position: relative;
 	width: 100%;
 }
 #par1-caption{
     position: absolute;
     top: 0px;
-    left: 10px
+    width: 89%
 }
 #par2-caption {
 	position: absolute;
-	padding: 0px 30px 0px 30px;
+	width: 88%;
 	top: 10px;
 }
 #par3-caption {
 	position: absolute;
-   	left: 40px;
-    top: 0px;
-    right: 10px;
+   	top: 0px;
+   	width: 89%;
+}
+.picture3 {
+	max-height: 400px;
+	max-width: 300px;
 }
 #physical1-caption {
 	position: absolute;
