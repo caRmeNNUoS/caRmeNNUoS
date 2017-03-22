@@ -287,3 +287,9 @@ p {
     margin: 10px auto;
     padding: 10px;
 }
+
+#imgborder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
