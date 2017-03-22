@@ -276,3 +276,11 @@ p {
     font-size: 40px;
     bottom: 50px;
 }
+
+.page-header {
+    background-color: rgba(255,255,255,.5);
+    border-radius: 10px;
+    display:table;
+    margin: 10px auto;
+    padding: 10px;
+}
