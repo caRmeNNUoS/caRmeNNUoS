@@ -192,6 +192,8 @@ p {
 .large {
   font-size: 30px;
   background-color: black;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .navbar {
@@ -217,25 +219,25 @@ p {
 	padding: 40px 30px 20px 47px;
 }
 
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        width: 70%;
-        margin: auto;
-     }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
 
-     .item {
-        height: 500px;
-        width: 500px; 
-        margin: 0 auto;             
-     }
+.item {
+    height: 500px;
+    width: 500px; 
+    margin: 0 auto;             
+}
 
-    .carousel {
-        height: 500px;
-        width: 500px;
-    }
+.carousel {
+    height: 500px;
+    width: 500px;
+}
 
-    .carousel-caption {
-        color: red;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-size: 40px;
-    }
+.carousel-caption {
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+}
