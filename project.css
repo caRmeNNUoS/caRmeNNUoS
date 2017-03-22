@@ -105,7 +105,23 @@ h1 {
 #par1-caption{
     position: absolute;
     top: 0px;
-    width: 92%
+    width: 92%;
+
+}
+.text1 {
+	width: 370px;
+}
+.text2{
+	width: 370px;
+}
+.text3 {
+	width: 311px;
+}
+.text4 {
+	width: 395px;
+}
+.text5 {
+	width: 345px;
 }
 #par2-caption {
 	position: absolute;
@@ -122,7 +138,7 @@ h1 {
 #physical1-caption {
 	position: absolute;
 	top: 0px;
-	padding: 0px 45px 0px 40px;
+	width: 90%
 }
 #physical2-caption {
 	position: absolute;
