@@ -88,7 +88,7 @@ h1 {
     background: transparent;
     border: none;
 }
-#container1 {
+#container-fluid {
 	position:relative;
 }
 #container2 {
@@ -99,13 +99,7 @@ h1 {
 	position: relative;
 	width: 100%
 }
-#container-row1 {
-	size: 80%;
-	margin-bottom: -300px;
-}
-#container-row2 {
-	vertical-align: top;
-}
+
 #par1-caption{
     position: absolute;
     top: 0px;
@@ -113,7 +107,7 @@ h1 {
 }
 #par2-caption {
 	position: absolute;
-	padding: 5px 30px 5px 30px;
+	padding: 0px 50px 0px 50px;
 	top: 0px;
 }
 #par3-caption {
