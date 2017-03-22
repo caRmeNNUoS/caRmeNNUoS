@@ -13,8 +13,8 @@ body {
 
 #index-head{
 	font-family: 'Monofett', cursive;
-	font-size: 170px;
-  margin: 0px;
+	font-size: 140px;
+    margin: 0px;
 }
 
 .strapline {
@@ -38,10 +38,10 @@ body {
 .about{
   color: rgba(255,255,255,1);
   background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
-  padding: 10px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+  padding: 0px;
 }
 
 .show-description {
@@ -93,11 +93,12 @@ h1 {
 
 .postit {
 	font-size: 70px;
-}
-
-.postit {
 	color: black;
 	text-decoration: none;
+}
+
+#postit {
+    zoom: 70%;
 }
 
 
@@ -115,6 +116,11 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 0px;
+}
+
+#social-buttons:hover {
+    color: grey;
 }
 
 .btn-twitter {
@@ -185,11 +191,15 @@ p {
 }
 .large {
   font-size: 30px;
+  background-color: black;
 }
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
+
 #sex1-caption {
 	position: absolute;
     padding: 80px 50px 0px 45px;
@@ -206,3 +216,26 @@ p {
 	top: 0px;
 	padding: 40px 30px 20px 47px;
 }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+     }
+
+     .item {
+        height: 500px;
+        width: 500px; 
+        margin: 0 auto;             
+     }
+
+    .carousel {
+        height: 500px;
+        width: 500px;
+    }
+
+    .carousel-caption {
+        color: red;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 40px;
+    }
