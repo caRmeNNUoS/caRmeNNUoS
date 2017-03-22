@@ -68,6 +68,9 @@ h1 {
 	background-color: rgba(0,255,0,0.3);
 	color: black;
 }
+.mark-first {
+	background-color:  rgba(165,165,165,0.2);
+}
 .third {
 	background-color: rgba(255,255,0,0.3);
 	color: black;
