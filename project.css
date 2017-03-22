@@ -69,7 +69,8 @@ h1 {
 	color: black;
 }
 .mark-first {
-	background-color:  rgba(165,165,165,0.2);
+	background-color:  rgba(165,165,165,0.4);
+	border-radius: 10px;
 }
 .third {
 	background-color: rgba(255,255,0,0.3);
