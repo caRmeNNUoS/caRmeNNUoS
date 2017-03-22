@@ -88,27 +88,42 @@ h1 {
     background: transparent;
     border: none;
 }
-
+#container1 {
+	position:relative;
+}
+#container2 {
+	position: relative;
+	
+}
+#container3 {
+	position: relative;
+	width: 100%
+}
+#container-row1 {
+	size: 80%;
+	margin-bottom: -300px;
+}
+#container-row2 {
+	vertical-align: top;
+}
 #par1-caption{
     position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-}
-#par3-caption {
-	position: absolute;
-    padding: 5px 26px 5px 26px;
     top: 0px;
-    font-size: 20px;
+    left: 10px
 }
 #par2-caption {
 	position: absolute;
-	padding: 5px 26px 5px 26px;
+	padding: 5px 30px 5px 30px;
 	top: 0px;
 }
-.fontpar1 {
-	font-size: 20px;
+#par3-caption {
+	position: absolute;
+   	left: 60px;
+    top: 0px;
+    right: 60px;
 }
+
+
 .postit {
 	font-size: 70px;
 	color: black;
