@@ -116,8 +116,18 @@ h1 {
     top: 0px;
     right: 60px;
 }
-
-
+#physical1-caption {
+	position: absolute;
+	top: 0px;
+}
+#physical2-caption {
+	position: absolute;
+	top: 0px;
+}
+#physical3-caption {
+	position: absolute;
+	top: 0px;
+}
 .postit {
 	font-size: 70px;
 	color: black;
