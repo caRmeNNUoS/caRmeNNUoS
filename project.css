@@ -115,12 +115,10 @@ h1 {
 #par3-caption {
 	position: absolute;
    	top: 0px;
-   	width: 89%;
+   	width: 95%;
+   	padding-left: 9%;
 }
-.picture3 {
-	max-height: 400px;
-	max-width: 300px;
-}
+
 #physical1-caption {
 	position: absolute;
 	top: 0px;
@@ -285,8 +283,4 @@ p {
     display:table;
     margin: 10px auto;
     padding: 10px;
-}
-
-#imgborder {
-	padding: 10px;
 }
