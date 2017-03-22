@@ -88,8 +88,8 @@ h1 {
     background: transparent;
     border: none;
 }
-#container-fluid {
-	position:relative;
+#container1 {
+	position: relative;
 }
 #container2 {
 	position: relative;
@@ -97,7 +97,7 @@ h1 {
 }
 #container3 {
 	position: relative;
-	width: 100%
+	width: 100%;
 }
 
 #par1-caption{
@@ -129,7 +129,6 @@ h1 {
 	position: absolute;
 	top: 0px;
 }
-
 .postit {
 	font-size: 70px;
 	color: black;
@@ -139,8 +138,6 @@ h1 {
 #postit {
     zoom: 70%;
 }
-
-
 .postit:hover {
     color: white;
     text-decoration: none;
