@@ -93,13 +93,11 @@ h1 {
 }
 #container2 {
 	position: relative;
-	
 }
 #container3 {
 	position: relative;
 	width: 100%;
 }
-
 #par1-caption{
     position: absolute;
     top: 0px;
