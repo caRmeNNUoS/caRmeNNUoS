@@ -107,8 +107,8 @@ h1 {
 }
 #par2-caption {
 	position: absolute;
-	padding: 0px 50px 0px 50px;
-	top: 0px;
+	padding: 0px 30px 0px 30px;
+	top: 10px;
 }
 #par3-caption {
 	position: absolute;
@@ -119,6 +119,7 @@ h1 {
 #physical1-caption {
 	position: absolute;
 	top: 0px;
+	padding: 0px 45px 0px 40px;
 }
 #physical2-caption {
 	position: absolute;
@@ -127,6 +128,9 @@ h1 {
 #physical3-caption {
 	position: absolute;
 	top: 0px;
+}
+.picturephys {
+	background-size: cover;
 }
 .postit {
 	font-size: 70px;
